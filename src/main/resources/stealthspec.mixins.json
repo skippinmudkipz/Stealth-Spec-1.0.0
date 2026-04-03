@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.stealthspec.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerListS2CPacketAccessor",
+    "PlayerManagerMixin",
+    "ServerPlayerInteractionManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stealthspec",
+  "version": "${version}",
+  "name": "Stealth-Spec",
+  "description": "Fork of Secret Spectator with whitelist-based spectator visibility.",
+  "authors": ["Synth"],
+  "contact": {
+    "sources": "https://github.com/replaceitem/secret-spectator"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.stealthspec.StealthSpec"
+    ]
+  },
+  "mixins": [
+    "stealthspec.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
+
